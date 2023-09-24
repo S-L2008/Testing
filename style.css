@@ -1,0 +1,253 @@
+:root{
+    --main-blue:#601cfc;
+}
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+   
+    .navigation a{
+        padding-left: 10px;
+        
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+
+
+
+
+
+header{
+    --main-blue: #331919;
+    background-color: var(--main-blue);
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    
+    
+}
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: capitalize;
+    color: var(--main-blue);
+    
+
+}
+nav a{
+    color: var(--main-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding-right: 200px;
+}
+nav a:hover{
+    color: #601cfc;
+}
+section{
+    padding: 100px 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+.main{
+    background-image: url("img.s-9.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.main h2{
+color: #3a6cf4;
+font-weight: 400;
+font-size: 1.1em;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.6em;
+    color: #3a6cf4;
+}
+.main h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #601cfc;
+
+}
+.main-btn{
+    color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 0.9375em 2.1875em;
+    color: #3a6cf4;
+
+}
+
+.social-icons a{
+    color:#fff;
+    padding:15px;
+    margin-top: 90px;
+}
+.main-btn:hover{
+    transform: scale(1.1);
+    background-color: #601cfc;
+}
+.titles{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    margin-bottom: 300px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    width: 21.25em;
+    padding: 25px;
+    margin: 15px;
+    min-height: 35vh;
+}
+.card .icon{
+    text-align: center;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.info{
+    text-align: center;
+
+}
+.info h3{
+    color: #3a6cf4;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.projects{
+    background-color: aliceblue;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project_card{
+background-color: bisque;
+border: 1px solid #fff;
+min-height: 14em;
+width: 23em;
+border-radius: 15px;
+margin: 20px;
+transition: o.7s ease-in;
+}
+.project_card:hover{
+    transform: scale(1.1);
+}
+.project_image .img{
+width: 75%;
+}
+.project_categry{
+    padding: 1em;
+    font-size: 0.8em;
+    color: #0a49f6;
+}
+.project_titles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1opx;
+}
+.project_categry a{
+    text-decoration: none;
+    color: #000;
+}
+.cards_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icon_c{
+    text-align: center;
+    color: #3a6cf4;
+    font-weight: 700;
+    font-size: 3em;
+
+}
+footer{
+    background-color: aliceblue;
+    justify-content: space-around;
+    display: flex;
+    padding: 2em;
+}
+
+.footer_title{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer .social-icons a{
+font-size: 1.3em;
+padding: 0 12px 0 0;
+}

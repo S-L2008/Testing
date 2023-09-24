@@ -1,0 +1,51 @@
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 100px;
+    margin-left: 100px;
+   padding:5px;
+   
+}
+nav ul{
+    border-radius: 30px;
+    border-style: dotted;
+    border-color: rgb(192, 192, 226);
+    border-width: 5px;
+    background-color:rgb(230, 202, 167);
+    
+
+}
+img{
+    
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.div_1{
+    margin-left: 400px;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: aqua;
+}
+
+
+html{
+    background-color: antiquewhite;
+}
+#p1{
+    text-align: center;
+}
+#href1{
+    text-align: center;
+    text-decoration: none;
+  padding:515px;
+}
